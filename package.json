@@ -1,0 +1,16 @@
+{
+  "name": "ciclo-2-desafio-1",
+  "version": "1.0.0",
+  "description": "- [Resumo do projeto](#resumo-do-projeto)\r   - [Objetivos de aprendizagem](#objetivos-de-aprendizagem)\r   - [Orientações:](#orientações)\r   - [Critérios de aceitação](#critérios-de-aceitação)\r   - [Links utéis:](#links-utéis)\r   - [Dicas](#dicas)",
+  "main": "calculadora.js",
+  "scripts": {
+    "start": "node calculadora.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "prompt-sync": "^4.2.0"
+  }
+}

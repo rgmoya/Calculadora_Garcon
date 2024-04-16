@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <h1>Cálculo da Mesa</h1>
+  <title>Calculadora de Pagamento</title>
+  <img src="https://cdn-icons-png.flaticon.com/512/4564/4564918.png">
+
+  <script src="calculadora.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  Valor da conta R$: <br>
+  <input type="number" id="valor" step="0.01"><br>
+
+  Número de pessoas na mesa: <br>
+  <input type="number" id="pessoas" step="1"><br>
+
+  Método de pagamento: <br>
+  <select id="metodo">
+    <option value="1">  Pix / Dinheiro</option>
+    <option value="2">  Débito / Crédito</option>
+  </select><br>
+
+  Incluir gorjeta (10%): <input type="checkbox" id="gorjeta"
+    onchange="if(document.getElementById('metodo').value === '1' && this.checked) { alert('Com a gorjeta não aplicamos o descont do PIX/Dinheiro!!!'); }"><br>
+
+  <input type="button" value="Calcular pagamento" onclick="calcularPagamento()">
+
+
+</body>
+
+</html>

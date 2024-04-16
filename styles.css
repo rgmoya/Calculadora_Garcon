@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Agency FB', Times, serif
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f3ce;
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    margin-top: 150px;
+    margin-right: 400px;
+    margin-left: 350px;
+}
+
+body img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+input#valor,
+#pessoas {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 135px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    border-color: #33a816;
+
+}
+
+select#metodo {
+    width: 135px;
+    height: 25px;
+    margin-left: 5px;
+    background-color: rgb(150, 206, 142);
+    border-color: #33a816;
+    border: 2px;
+}
+
+input {
+    text-align: center;
+    margin-top: 5px;
+    width: 135px;
+    height: 25px;
+    background-color: rgb(186, 235, 177);
+    border-color: #dde9df;
+}
+
+input#gorjeta {
+    width: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
